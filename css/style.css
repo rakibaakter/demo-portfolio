@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* common feature */
+.special-color{
+    color:#FD6E0A;;
+}
+.btn-common{
+    background-color: #FD6E0A;;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 0;
+}
+/* header section */
+.header{
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 200px;
+}
+nav h3{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #FD6E0A;;
+}
+/* header banner */
+.banner{
+    padding: 30px 30px 30px 210px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile img{
+    width: 500px;
+}
