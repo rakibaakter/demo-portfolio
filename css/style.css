@@ -111,7 +111,7 @@ main {
     width: 60%;
     margin: auto;
     border: 1px solid red;
-    padding: 130px;
+    padding: 130px 130px 80px;
 }
 
 .section-title {
@@ -154,10 +154,9 @@ main {
 
 .about-info p,
 address,
-date {
+date, .resume-info p {
     font-size: 14px;
     font-weight: 400;
-    font-style: normal;
     color: #636363;
     text-align: center;
     margin-top: 10px;
@@ -166,12 +165,12 @@ date {
 /* what-i-do section */
 
 .what-i-do-description {
-    padding: 130px;
+    padding: 100px 130px;
 }
 
-.skill-container {
+.skill-container, .resume-container {
     display: flex;
-    gap: 25px
+    gap: 30px
 }
 
 .skill {
@@ -187,4 +186,18 @@ date {
 }
 .skill img{
     margin: 10px 0px;
+}
+
+/* resume section */
+.resume-section > .section-title{
+    margin: 130px 0px;
+}
+.resume-type h2{
+    margin-bottom: 30px;
+}
+.resume-info{
+    margin: 60px 0px;
+}
+.resume-info address, .resume-info p{
+    text-align: left;
 }
