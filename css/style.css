@@ -3,9 +3,6 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
-
 /* common feature */
 .special-color {
     color: #FD6E0A;
@@ -34,9 +31,9 @@ p {
 /* header section */
 .header {
     background: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 
 }
 
@@ -110,7 +107,7 @@ nav a {
 main {
     width: 60%;
     margin: auto;
-    padding: 130px 130px 80px;
+    padding: 80px 100px 60px;
 }
 
 .section-title {
@@ -125,7 +122,7 @@ main {
 
 /* about section */
 .about {
-    padding: 130px;
+    padding: 60px;
     border-radius: 10px;
     background: #FFF8F3;
 }
@@ -164,7 +161,7 @@ date, .resume-info p {
 /* what-i-do section */
 
 .what-i-do-description {
-    padding: 100px 130px;
+    padding: 80px 60px;
 }
 
 .skill-container, .resume-container {
@@ -208,8 +205,8 @@ footer{
     display: flex;
     gap: 100px;
     background: #FFF8F3;
-    margin-top: 100px;
-    padding: 130px 200px;
+    margin-top: 60px;
+    padding: 80px 200px;
     max-height: 400px;
 }
 .footer-column {
@@ -221,13 +218,18 @@ footer{
 }
 
 .contact input[type="text"], .contact input[type="email"],
-textarea {
+textarea{
     display: block;
-    margin-bottom: 25px;
+    margin-top: 25px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
     background: #FFF;
     border: 0;
-    width: 100%;
+    width: 80%;
+    box-shadow: 5px 5px 7px gray;
+}
+.contact input[type="submit"]{
+    margin: 25px 0;
+    width: 93%;
 }
