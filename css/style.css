@@ -208,6 +208,7 @@ footer{
     margin-top: 60px;
     padding: 80px 200px;
     max-height: 400px;
+    align-items: center;
 }
 .footer-column {
     width: 50%;
