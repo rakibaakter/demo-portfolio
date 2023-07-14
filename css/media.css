@@ -1,0 +1,34 @@
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav, .banner{
+        flex-direction: column;
+        padding: 10px;
+        margin: 10px;
+    }
+    nav li {
+        margin-right: 10px;
+    }
+    .btn-common{
+        margin-bottom: 5px;
+    }
+    .profile img {
+        width: 400px;
+    }
+    main, .footer-column {
+        width: 100%;
+        padding: 5px;
+    }
+    .about, .what-i-do-description, .resume-section > .section-title, footer{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .about-info-container, .skill-container, .resume-container , footer{
+        flex-direction: column;
+    }
+    .resume-section > .section-title{
+        margin-bottom: 50px;
+    }
+
+}

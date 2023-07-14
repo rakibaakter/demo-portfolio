@@ -164,7 +164,7 @@ date, .resume-info p {
     padding: 80px 60px;
 }
 
-.skill-container, .resume-container {
+.skill-container{
     display: flex;
     gap: 30px;
 }
@@ -191,6 +191,10 @@ date, .resume-info p {
 .resume-section > .section-title{
     margin: 130px 0px;
 }
+.resume-container {
+    display: flex;
+    gap: 60px;
+}
 .resume-type h2{
     margin-bottom: 30px;
 }
@@ -207,7 +211,6 @@ footer{
     background: #FFF8F3;
     margin-top: 60px;
     padding: 80px 200px;
-    max-height: 400px;
     align-items: center;
 }
 .footer-column {
